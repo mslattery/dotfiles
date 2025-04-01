@@ -63,7 +63,10 @@ ZSH_THEME="robbyrussell"
 # "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
 # or set a custom format using the strftime function format specifications,
 # see 'man strftime' for details.
-# HIST_STAMPS="mm/dd/yyyy"
+HIST_STAMPS="mm/dd/yyyy"
+
+# Commands starting from " " (whitespace) won't be saved in history:
+HIST_IGNORE_SPACE='true'
 
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
@@ -73,7 +76,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git ssh-agent zsh-syntax-highlighting zsh-autosuggestions aliases)
+plugins=(git ssh-agent zsh-syntax-highlighting zsh-autosuggestions)
 
 #Agent forwarding config
 zstyle :omz:plugins:ssh-agent agent-forwarding yes
@@ -115,8 +118,11 @@ source $ZSH/oh-my-zsh.sh
 alias ls='eza --all --long --group --group-directories-first --icons --header --time-style long-iso'
 alias upd="sudo apt update ; sudo apt install"
 
-export EDITOR=/usr/bin/vim
+# === Shell parts ===
+source "$HOME/.aliases"
+
 # map vi to vim
+export EDITOR=/usr/bin/vim
 alias vi=$EDITOR
 
 # load nix - TODO EVALUATE

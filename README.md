@@ -1,6 +1,5 @@
 Currently trying dotbot - https://github.com/anishathalye/dotbot/
 
-
 ls => eza
 https://github.com/eza-community/eza
 

@@ -1,4 +1,6 @@
-#Requirements
+# Slats Dotfiles
+
+## TLDR; or How To
 ```
 apt update && apt install git -y
 git clone https://github.com/mslattery/dotfiles.git
@@ -8,17 +10,19 @@ cd dotfiles/
 ```
 
 ## Required packages
-git
-zsh
-sudo
-curl
-Python3
+The following packages are required
+- **git** - to clone the repo
+- **curl** - to install via curl
+- **zsh** - because I like it
+- **sudo** - becuase I am Root
+- **python3** - because the dotbot package needs it
 
-Currently trying dotbot - https://github.com/anishathalye/dotbot/
+## Replacements
+The following tools are incorporated as well.
+|Tool|Replaced By|Why|URL|
+|:---|:---|:---:|:---:|
+|ls|eza|Testing|https://github.com/eza-community/eza|
+|tool2|Text|url|
 
-ls => eza
-https://github.com/eza-community/eza
-
-
-ALT Consideration using STOW
-https://medium.com/@waterkip/managing-my-dotfiles-with-gnu-stow-262d2540a866
+## Work in Progress
+- Dotbot - https://github.com/anishathalye/dotbot/ with profiles.  Working well.

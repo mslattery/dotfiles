@@ -1,6 +1,11 @@
 #Requirements
+```
 apt update && apt install git -y
+git clone https://github.com/mslattery/dotfiles.git
+cd dotfiles/
 ./install-requirements.sh
+./install-profile linux
+```
 
 ## Required packages
 sudo

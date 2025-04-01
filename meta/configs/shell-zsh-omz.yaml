@@ -1,5 +1,3 @@
-- shell:
-    command: sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 - link:
     ~/.oh-my-zsh/oh-my-zsh.sh:
         create: true

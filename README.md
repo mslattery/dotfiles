@@ -8,11 +8,11 @@ cd dotfiles/
 ```
 
 ## Required packages
+git
+zsh
 sudo
 curl
-git
 Python3
-zsh
 
 Currently trying dotbot - https://github.com/anishathalye/dotbot/
 

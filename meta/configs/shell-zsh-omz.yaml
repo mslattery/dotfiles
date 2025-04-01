@@ -1,2 +1,6 @@
+- link:
+    ~/.oh-my-zsh/oh-my-zsh:
+        create: true
+        path: shells/omz/oh-my-zsh.sh
 - shell:
     command: sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"

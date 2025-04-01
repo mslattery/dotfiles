@@ -1,1 +1,2 @@
-apt get install sudo curl git Python3 zsh
+#!/usr/bin/sh
+apt install sudo curl git python3 zsh -y

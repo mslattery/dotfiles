@@ -1,4 +1,8 @@
-Requirements
+#Requirements
+apt update && apt install git -y
+./install-requirements.sh
+
+## Required packages
 sudo
 curl
 git

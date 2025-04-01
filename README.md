@@ -2,10 +2,7 @@
 
 ## TLDR; or How To
 ```
-apt update && apt install git -y
-git clone https://github.com/mslattery/dotfiles.git
-cd dotfiles/
-./install-requirements.sh
+DEBIAN_FRONTEND=noninteractive apt update && apt install git -y && git clone https://github.com/mslattery/dotfiles.git && cd dotfiles/ && ./install-requirements.sh
 ./install-profile linux
 ```
 

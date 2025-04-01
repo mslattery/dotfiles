@@ -5,7 +5,7 @@
     ~/.bash_prompt:
 
 - shell:
-    - command: sudo apt update && sudo apt install zsh -y
+    - command: apt update && apt install zsh -y
       stdout: true
       stderr: true
     - [chsh -s $(which zsh), Making zsh the default shell]

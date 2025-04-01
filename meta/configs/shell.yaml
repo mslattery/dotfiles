@@ -1,0 +1,11 @@
+- link:
+    ~/.zshrc:
+    ~/.bashrc:
+    ~/.bash_profile:
+    ~/.bash_prompt:
+
+- shell:
+    - command: sudo apt update && sudo apt install zsh -y
+      stdout: true
+      stderr: true
+    - [chsh -s $(which zsh), Making zsh the default shell]

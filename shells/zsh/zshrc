@@ -112,6 +112,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+alias ls='eza --all --long --group --group-directories-first --icons --header --time-style long-iso'
+
 export EDITOR=/usr/bin/vim
 # map vi to vim
 alias vi=$EDITOR

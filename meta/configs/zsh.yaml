@@ -3,7 +3,4 @@
     ~/.antigen.zsh: shells/zsh/antigen.zsh
 
 - shell:
-    - command: apt update && apt install zsh -y
-      stdout: true
-      stderr: true
     - [chsh -s $(which zsh), Making zsh the default shell]

@@ -3,6 +3,9 @@ set nocompatible
 
 source ~/.vim/plugins.vim
 
+Plug 'junegunn/limelight.vim' 
+
+
 filetype plugin indent on
 
 if has("vms")

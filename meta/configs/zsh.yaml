@@ -1,6 +1,7 @@
 - link:
-    ~/.zshrc:       shells/zsh/zshrc
+    ~/.zshrc: shells/zsh/zshrc
     ~/.antigen.zsh: shells/zsh/antigen.zsh
+    ~/.aliases: shells/aliases
 
 - shell:
     - [chsh -s $(which zsh), Making zsh the default shell]

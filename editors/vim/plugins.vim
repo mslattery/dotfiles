@@ -15,13 +15,15 @@ call plug#begin('~/.vim/plugged')
 " colorschemes
 Plug 'lifepillar/vim-solarized8'
 
-" (un)comment
+" (un)comment - https://github.com/tpope/vim-commentary
 Plug 'tpope/vim-commentary'
 
-" handle surroundings
+" handle surroundings https://github.com/tpope/vim-surround
 Plug 'tpope/vim-surround'
 
-" autodetect tabwidth
+" TODO - https://github.com/tpope/vim-speeddating
+
+" autodetect tabwidth - https://github.com/tpope/vim-sleuth
 Plug 'tpope/vim-sleuth'
 
 

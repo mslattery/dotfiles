@@ -131,3 +131,4 @@ export LESS_TERMCAP_us=$(printf '\e[04;36m') # enter underline mode - cyan
 
 # Use Z - https://github.com/rupa/z
 [ -f $HOME/.z/z.sh ] && . $HOME/z/z.sh
+alias vim="nvim"
